@@ -1,0 +1,19 @@
+{
+  "name": "math-classified",
+  "version": "0.0.1",
+  "description": "A utility library for modeling mathetmatical operations in an object oriented way, written in TypeScript",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/Komefumi/math-classified.git"
+  },
+  "author": "Komefumi <arjunraju.pillai.1997@gmail.com>",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/Komefumi/math-classified/issues"
+  },
+  "homepage": "https://github.com/Komefumi/math-classified#readme"
+}
