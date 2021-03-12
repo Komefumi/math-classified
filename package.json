@@ -4,7 +4,7 @@
   "description": "A utility library for modeling mathetmatical operations in an object oriented way, written in TypeScript",
   "main": "index.js",
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
+    "test": "mocha -r ts-node/register test/**/*.spec.ts"
   },
   "repository": {
     "type": "git",
@@ -17,6 +17,11 @@
   },
   "homepage": "https://github.com/Komefumi/math-classified#readme",
   "devDependencies": {
+    "@types/chai": "^4.2.15",
+    "@types/mocha": "^8.2.1",
+    "chai": "^4.3.3",
+    "mocha": "^8.3.1",
+    "ts-node": "^9.1.1",
     "tslint": "^6.1.3",
     "typescript": "^4.2.3"
   }
